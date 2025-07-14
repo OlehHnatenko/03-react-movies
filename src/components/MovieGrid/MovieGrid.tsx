@@ -22,7 +22,7 @@ export default function MovieGrid({onSelect, movies}: MovieGridProps) {
                             alt={movie.title}
                             loading="lazy"
                         />
-                        <h2 className={css.title}>Movie title</h2>
+                        <h2 className={css.title}>{movie.title}</h2>
                     </div>
                 </li>
                ))}
